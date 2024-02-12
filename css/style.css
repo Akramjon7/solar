@@ -1,0 +1,426 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 400;
+      border: none;
+}
+
+.container {
+      max-width: 1220px;
+      padding: 0 10px;
+      margin: 0 auto;
+}
+
+/* header */
+.header {
+      width: 100%;
+      height: 900px;
+      background: url(../img/fon.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 120px;
+}
+
+.nav-content .logo {
+      padding-top: 70px;
+      margin-bottom: 125px;
+}
+
+.logo img {
+      width: 182.09px;
+      height: 51px;
+}
+
+.nav-content {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      align-items: center;
+}
+
+.nav-content h1 {
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 87px;
+      margin-bottom: 15px;
+}
+
+.nav-content h3 {
+      font-size: 40px;
+      font-size: 42px;
+      line-height: 57px;
+      font-family: 'Noto Sans';
+}
+
+.nav-content h6 {
+      font-size: 18px;
+      line-height: 25px;
+}
+
+.nav-content .imgs img {
+      margin-top: 64px;
+}
+
+.gramm {
+      display: flex;
+      margin-top: 212.03px;
+}
+
+.gramm .instagram {
+      padding: 0 10px;
+}
+
+
+/* header end */
+
+/* about */
+
+.about-content {
+      display: flex;
+      gap: 55px;
+      margin-top: 30px;
+}
+
+.left {
+      max-width: 520px
+}
+
+.about h3 {
+      margin-bottom: 50px;
+      margin-top: 50px;
+}
+
+.cards {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      height: 600px;
+}
+
+.right img {
+      width: 600px;
+      height: 670px;
+}
+
+.card h4 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      margin-bottom: 10px;
+}
+
+.card p {
+      font-size: 14px;
+      line-height: 22px;
+}
+
+/* about end */
+
+/* service */
+
+.service-content {
+      display: flex;
+      margin-top: 150px;
+}
+
+.left1 h3 {
+      margin-bottom: 50px;
+}
+
+
+.texts {
+      display: flex;
+      gap: 44px;
+      margin-bottom: 100px;
+}
+
+.texts1 {
+      display: flex;
+      gap: 40px;
+}
+
+.cards1 {
+      display: flex;
+      flex-direction: column;
+}
+
+.cards2 {
+      display: flex;
+      flex-direction: column;
+}
+
+.cardlar {
+      display: flex;
+      gap: 50px;
+}
+
+.card1 h4 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      margin-bottom: 5px;
+}
+
+.card2 h4 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+}
+
+.card1 p {
+      font-size: 14px;
+      line-height: 19px;
+}
+
+.card2 p {
+      font-size: 14px;
+      line-height: 16px;
+}
+
+.card1 {
+      margin-bottom: 30px;
+}
+
+.card2 {
+      margin-bottom: 30px;
+}
+
+.right2 h4 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      margin-bottom: 15px;
+}
+
+.texts1 {
+      margin-bottom: 100px;
+}
+
+.left1 {
+      margin-right: 100px;
+}
+
+.right2 .imgs img {
+      Width: 600px;
+      Height: 525px;
+}
+
+.right2 {
+      margin-top: 70px;
+}
+
+.right1 {
+      display: flex;
+      flex-direction: column;
+      gap: 57px;
+}
+
+.right1 p {
+      font-size: 14px;
+      line-height: 13px;
+}
+
+/* service end */
+
+/* background */
+
+.background {
+      margin-top: 100px;
+      width: 100%;
+      Height: 500px;
+      background: url(../img/Rectangle\ 10.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.b-content h1 {
+      color: #FFFFFF;
+      font-size: 42px;
+      line-height: 57px;
+      text-align: center;
+      max-width: 673px;
+}
+
+/* background end */
+/* home */
+
+.home-content h3 {
+      margin-top: 150px;
+      margin-bottom: 50px;
+}
+
+.r-l {
+      display: flex;
+      gap: 100px;
+}
+
+.leftt h4 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      margin-bottom: 15px;
+}
+
+.leftt p {
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 10px;
+      margin-left: 40px;
+}
+
+.imgs2 {
+      margin-top: 83px;
+}
+
+.rightt .array1 {
+      margin-left: 45%;
+}
+
+.home-content {
+      margin-bottom: 100px;
+}
+
+/* home end */
+
+/* car */
+
+.car-content {
+      display: flex;
+      margin-top: 150px;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.left3 {
+      width: 1200px;
+      height: 730px;
+}
+
+.left3 .cardss {
+      display: flex;
+      flex-direction: column;
+}
+
+.right3 img {
+      width: 600px;
+      height: 730px;
+}
+
+.left3 .cardd h4 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 20px;
+      margin-bottom: 10px;
+}
+
+.left3 .cardd .active2 {
+      font-size: 14px;
+      line-height: 20px;
+
+}
+
+.left3 .cardd .active {
+      font-size: 14px;
+      line-height: 19px;
+      color: #868585;
+      margin-bottom: 10px;
+      margin-top: 29px;
+}
+
+.actives {
+      font-size: 14px;
+      line-height: 19px;
+      color: #868585;
+      margin-bottom: 10px;
+      margin-top: 50px;
+}
+
+
+/* car end */
+/* footer */
+
+
+footer {
+      margin-top: 150px;
+      width: 100%;
+      height: 730px;
+      background: url(../img/Rectangle\ 13\ \(1\).png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+}
+
+.f-content {
+      display: flex;
+      flex-direction: column;
+      gap: 150px;
+}
+
+.cardsss {
+      padding-top: 60px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.carddd {
+      display: flex;
+      flex-direction: column;
+}
+
+.carddd h3 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 33px;
+      margin-bottom: 60px;
+      color: #FFFFFF;
+}
+
+.carddd p {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 30px;
+      color: #FFFFFF;
+}
+
+.carddd .inputt {
+      margin-bottom: 70px;
+      background: transparent;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 7px;
+      color: #FFFFFF;
+      width: 510px;
+}
+
+
+
+.carddd .inputt2 {
+      margin-bottom: 100px;
+      background: transparent;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 7px;
+      color: #FFFFFF;
+      width: 510px;
+}
+
+input::placeholder{
+      color: #FFFFFF;
+}
+
+.navv {
+      display: flex;
+      justify-content: space-between;
+}
+
+.navv p {
+      color: #FFFFFF;
+}
+
+/* footer end */
